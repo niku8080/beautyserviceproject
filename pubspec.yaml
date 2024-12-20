@@ -1,0 +1,40 @@
+name: homepagefemale
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.2.0+3
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  flutter_staggered_grid_view: ^0.7.0
+  animate_do: ^3.3.4
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.0
+  firebase_auth: ^5.3.3
+  time_slot: ^1.0.0
+  intl: ^0.19.0
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/productsmen/
+    - assets/productswomen/
+    - assets/profile/
+   
+   
